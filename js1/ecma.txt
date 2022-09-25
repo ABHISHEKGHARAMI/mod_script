@@ -1,0 +1,6 @@
+What is ecma text?
+// 
+So what happened is javascript is built by different browser different time , It is necessary to standerise the 
+different javascript to make life easy for the developer ,so they come up with standerisation of javascript lang.
+ECMA is a basically international frame to standerization of js.After they standerize different version then it is called 
+ecma -8v(version) like that.
