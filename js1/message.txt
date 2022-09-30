@@ -1,1 +1,2 @@
 This is the introductinary part of moving javascript.
+This the Prepatory of the backend Development to learn javaScript, with basic nodejs,express like framework.

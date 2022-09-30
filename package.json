@@ -1,0 +1,19 @@
+{
+  "name": "git_basics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "text.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ABHISHEKGHARAMI/mod_script.git"
+  },
+  "author": "Abhishek Gharami",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ABHISHEKGHARAMI/mod_script/issues"
+  },
+  "homepage": "https://github.com/ABHISHEKGHARAMI/mod_script#readme"
+}
