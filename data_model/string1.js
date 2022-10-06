@@ -26,3 +26,26 @@ console.log(str4);
 console.log(str1);
 let str5 = str1.toUpperCase();
 console.log(str5);
+
+// to check that contains the substring of the any given string
+if (str1.includes('Abhi')==1){
+    console.log("String contains the substring of the given.");
+}
+else{
+    console.log("String does not hold the substring of the given string.");
+}
+
+// The comparision between the startswith and endswith
+if(str1.startsWith('Abhi')==1){
+    console.log("String match with the substring.");
+}
+else{
+    console.log("String don't match with the substring.");
+}
+
+if(str1.endsWith('Abhi')==1){
+    console.log("String match with the substring.");
+}
+else{
+    console.log("String don't match with the substring.");
+}
