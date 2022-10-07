@@ -41,3 +41,32 @@ const num3 = nums.filter(n=>{
     return n%2===1;
 });
 console.log(num3);
+console.log(typeof(num3));
+const books =[
+    {
+        title : 'Good Omens',
+        authors : ['Terry Pratchett','Neil Gaiman'],
+        rating : 4.25
+    },
+    {
+        title : 'Bone :The complete edition',
+        authors : ['Jeff Smith'],
+        rating : 4.42
+    },
+    {
+        title : 'American Gods',
+        authors : ['Neil Gaiman'],
+        rating : 4.11
+    },
+    {
+        title : 'A Gentleman in Moscow',
+        authors : ['Amor Towles'],
+        rating : 4.36
+    }
+]
+const gbooks = books.filter(n=>{
+    if(n.rating>=4.2){
+        console.log("Author :",n.authors,"  Book name :",n.title);
+    }
+});
+console.log(gbooks);
