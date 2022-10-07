@@ -36,3 +36,16 @@ let min_score = grades.reduce((curr,temp)=>{
     return temp;
 });
 console.log(min_score);
+
+// using the reduce function for return a objects using the tally
+let tally = ['y','y','n','y','n','y'];
+
+const var1 = tally.reduce((curr,temp)=>{
+    if(tally[temp]){
+        tally[temp]++;
+    }else{
+        tally[temp]=1;
+    }
+    return tally;
+},{});
+console.log(var1);
