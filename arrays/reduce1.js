@@ -12,6 +12,11 @@ let mul = num.reduce((curr,temp)=>{
     return curr*temp;
 });
 console.log(mul);
+//using the reduce functrion after a certain call back
+let sum1 = num.reduce((curr,temp)=>{
+    return curr+temp;
+},1000);
+console.log(sum1);
 
 //finding the maximum value of the grades
 let grades = [89,96,58,77,62,93,81,99,73];
