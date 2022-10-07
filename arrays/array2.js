@@ -54,3 +54,20 @@ function uppercase(data){
 }
 let arr3 = arr2.map(uppercase);
 console.log(arr3);
+
+// map function for even or odd
+let arr4 = [20 , 21, 22, 23, 24, 25, 26];
+arr4.map(function(num){
+    if(num%2==0){
+        console.log("Even");
+    }
+    else{
+        console.log("Odd");
+    }
+});
+
+//books title for map 
+const title = books.map(function(n){
+    return n.title;
+});
+console.log(title);
